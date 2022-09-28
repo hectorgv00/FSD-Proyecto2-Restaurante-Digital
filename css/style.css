@@ -1,0 +1,99 @@
+/* Colores */
+
+body{
+    width:100%;
+}
+
+.marron-mas-oscuro{
+    background-color: #403422;
+} 
+.marron-oscuro{
+    background-color: #BF852E;
+} 
+.marron-medio{
+    background-color: #DFC298;
+} 
+.marron-claro{
+    background-color: #D9B175;
+} 
+.marron-mas-claro{
+    background-color: #F5DAC7;
+} 
+.azul-oscuro{
+    background-color: #054373;
+} 
+.azul-medio{
+    background-color: #2E81BF;
+}
+
+/* Header */
+
+.colorBlanco{
+    color: white;
+}
+
+#introduccion{
+    height: 100vh; 
+}
+#titulo-tentacion{
+    font-size: 5em;
+
+}
+
+.contenedor-titulo{
+    height: 30vh;
+    width: 30vw;
+    border: 1px solid white;
+}
+
+.height10vh{
+    height: 10vh;
+}
+
+.font-family-exo{
+    font-family: 'Exo', sans-serif;
+}
+
+.bg-fondo1{
+    background-image: url(../images/mediterranean-cuisine-2378758.jpg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #2E81BF;
+    opacity: 70%;
+}
+
+.bg-white-op-70{
+    background-color: white;
+    opacity: 70%;
+}
+
+/* quienes somos */
+
+#quienes-somos-izquierda{
+    background-image: url(../images/cucharas.avif);
+    height: 80vh;
+    background-size: cover;
+
+    
+}
+
+.border-radius-1rem{
+    border-radius: 1rem;
+}
+
+.rem4{
+    font-size: 4rem;
+}
+
+#quienes-somos-derecha{
+    background-image: url(../images/photo-1507048331197-7d4ac70811cf.avif);
+    height: 80vh;
+    background-size: cover;
+}
