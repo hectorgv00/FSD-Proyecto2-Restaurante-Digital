@@ -32,6 +32,14 @@ body{
     color: white;
 }
 
+.colorNegro{
+    color: black;
+}
+
+.colorRojo{
+    color: rgb(159, 12, 12);
+}
+
 #introduccion{
     height: 100vh; 
 }
@@ -60,9 +68,32 @@ body{
     background-position: bottom;
 }
 
-.bg-fondo-madera{
-    background-image:url(../images/cafe.jpg);
+.bg-fondo-2{
+    background-image:url(../images/pizza-4968645.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;  
+}
+
+.bg-fondo-3{
+    background-image:url(../images/fork-973900.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-fondo-4{
+    background-image: url(../images/delicious-cupcakes-with-copy-space.jpg);
+    background-size: cover;
+}
+
+.bg-negro{
+    background-color: rgb(18, 17, 17);
+    color: #FFF;
+    transition: all .5s;
+}
+
+.bg-negro:hover{
+    background-color: rgb(159, 12, 12);
+    color: white;
 }
 
 a{
@@ -81,13 +112,18 @@ a:hover{
 }
 
 /* quienes somos */
-
+/* 
 #quienes-somos-izquierda{
     background-image: url(../images/cucharas.avif);
     /* height: 80vh; */
-    background-size: cover;
+    /* background-size: cover;
 
     
+} */ 
+
+
+.noDisplay{
+    display: none;
 }
 
 .border-radius-1rem{
@@ -96,6 +132,10 @@ a:hover{
 
 .rem4{
     font-size: 4rem;
+}
+
+.rem2{
+    font-size: 2rem;
 }
 
 #quienes-somos-derecha{
