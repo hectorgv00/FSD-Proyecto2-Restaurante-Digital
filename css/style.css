@@ -57,6 +57,7 @@ body{
 .bg-fondo1{
     background-image: url(../images/mediterranean-cuisine-2378758.jpg);
     background-size: cover;
+    background-position: bottom;
 }
 
 a{
@@ -78,7 +79,7 @@ a:hover{
 
 #quienes-somos-izquierda{
     background-image: url(../images/cucharas.avif);
-    height: 80vh;
+    /* height: 80vh; */
     background-size: cover;
 
     
@@ -94,6 +95,6 @@ a:hover{
 
 #quienes-somos-derecha{
     background-image: url(../images/photo-1507048331197-7d4ac70811cf.avif);
-    height: 80vh;
+    /* height: 80vh; */
     background-size: cover;
 }
