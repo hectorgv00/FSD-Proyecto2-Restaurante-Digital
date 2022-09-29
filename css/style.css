@@ -60,6 +60,11 @@ body{
     background-position: bottom;
 }
 
+.bg-fondo-madera{
+    background-image:url(../images/cafe.jpg);
+    background-size: cover;
+}
+
 a{
     text-decoration: none;
     color: white;
