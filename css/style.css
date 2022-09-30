@@ -17,7 +17,7 @@ body{
     background-color: #D9B175;
 } 
 .marron-mas-claro{
-    background-color: #F5DAC7;
+    background-color: #fdede1;
 } 
 .azul-oscuro{
     background-color: #054373;
@@ -36,6 +36,10 @@ body{
     color: black;
 }
 
+.noOverflow{
+    overflow: hidden;
+}
+
 .colorRojo{
     color: rgb(159, 12, 12);
 }
@@ -44,7 +48,7 @@ body{
     height: 100vh; 
 }
 #titulo-tentacion{
-    font-size: 5em;
+    font-size: 4.5em;
 
 }
 
@@ -68,6 +72,10 @@ body{
     background-position: bottom;
 }
 
+.bg-fondo-1-peq{
+background-color: rgba(255, 255, 255, 0.40);
+}
+
 .bg-fondo-2{
     background-image:url(../images/pizza-4968645.jpg);
     background-size: cover;  
@@ -83,6 +91,7 @@ body{
 .bg-fondo-4{
     background-image: url(../images/delicious-cupcakes-with-copy-space.jpg);
     background-size: cover;
+    background-position: top;
 }
 
 .bg-negro{
@@ -111,16 +120,6 @@ a:hover{
     opacity: 70%;
 }
 
-/* quienes somos */
-/* 
-#quienes-somos-izquierda{
-    background-image: url(../images/cucharas.avif);
-    /* height: 80vh; */
-    /* background-size: cover;
-
-    
-} */ 
-
 
 .noDisplay{
     display: none;
@@ -138,8 +137,3 @@ a:hover{
     font-size: 2rem;
 }
 
-#quienes-somos-derecha{
-    background-image: url(../images/photo-1507048331197-7d4ac70811cf.avif);
-    /* height: 80vh; */
-    background-size: cover;
-}
