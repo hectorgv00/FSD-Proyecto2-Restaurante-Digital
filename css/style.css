@@ -4,28 +4,6 @@ body{
     width:100%;
 }
 
-.marron-mas-oscuro{
-    background-color: #403422;
-} 
-.marron-oscuro{
-    background-color: #BF852E;
-} 
-.marron-medio{
-    background-color: #DFC298;
-} 
-.marron-claro{
-    background-color: #D9B175;
-} 
-.marron-mas-claro{
-    background-color: #fdede1;
-} 
-.azul-oscuro{
-    background-color: #054373;
-} 
-.azul-medio{
-    background-color: #2E81BF;
-}
-
 .colorBlanco{
     color: white;
 }
@@ -44,7 +22,6 @@ body{
 
 #introduccion{
     height: 100vh;
-
 }
 
 .noOpacity{
@@ -66,10 +43,6 @@ body{
     border: 1px solid white;
 }
 
-.height10vh{
-    height: 10vh;
-}
-
 .font-family-exo{
     font-family: 'Exo', sans-serif;
 }
@@ -80,16 +53,13 @@ body{
     background-position: bottom;
 }
 
-.bg-fondo-1-peq{
-background-color: rgba(255, 255, 255, 0.40);
-}
 
 .bg-blanco-transp{
     background-color: rgba(255, 255, 255, 0.20);
 }
 
 .bg-gris-claro{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(249, 249, 249);
 }
 
 .altura-iconos{
