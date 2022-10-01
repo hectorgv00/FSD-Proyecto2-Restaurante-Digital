@@ -124,19 +124,70 @@ background-color: rgba(255, 255, 255, 0.40);
     transition: all .5s;
 }
 
+.noTextDecoration{
+    text-decoration: none;
+    
+}
+
+.noTextDecoration:hover{
+    color: rgb(204, 15, 15);
+}
+
 .bg-negro:hover{
     background-color: rgb(159, 12, 12);
     color: white;
 }
 
-a{
+.enlacesTop{
     text-decoration: none;
     color: white;
+    position: relative;
+overflow: hidden;
+display: inline-block;
 }
 
-a:hover{
-    color: #2E81BF;
-    opacity: 70%;
+
+.enlacesTop:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background:  rgba(255, 255, 255, .7);
+    transition: left .8s;
+    }
+
+.enlacesTop:hover:after {
+    left: 0;
+    opacity: 100%;
+}
+
+.enlacesBottom{
+    text-decoration: none;
+    color: white;
+    position: relative;
+overflow: hidden;
+display: inline-block;
+}    
+
+.enlacesBottom:hover{
+    color: rgb(159, 12, 12);
+}
+.enlacesBottom:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 50%;
+    height: 2px;
+    background: rgb(159, 12, 12);
+    transition: left .8s;
+    }
+
+.enlacesBottom:hover:after {
+    left: 0;
+    opacity: 100%;
 }
 
 .bg-white-op-70{
