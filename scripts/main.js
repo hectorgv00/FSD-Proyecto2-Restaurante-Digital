@@ -1,47 +1,32 @@
-var entrantes = document.getElementById("entrantes");
-var primeros = document.getElementById("primeros");
-var segundos = document.getElementById("segundos");
-var postres = document.getElementById("postres");
+window.onload = function(){AparecerTexto()}
 
-function Entrantes(){
+const titulo = document.getElementById("introduccion");
+const quienesSomos = document.getElementById("quienes-somos-izquierda")
+const queHacemos = document.getElementById("que-hacemos")
+const platos = document.getElementById("platos-estrella")
 
-
-    if( entrantes.classList.value == "container mt-3 mb-3 noDisplay"){
-        entrantes.classList.remove("noDisplay")
-        primeros.classList.add("noDisplay")
-        segundos.classList.add("noDisplay")
-        postres.classList.add("noDisplay")        
-    }
+function AparecerTexto(){
+    titulo.classList.add("introduccion-efecto")
 }
 
-function Primeros(){
+window.onscroll = function(){FuncionScroll()};
 
 
-    if( primeros.classList.value == "container mt-3 mb-3 noDisplay"){
-        primeros.classList.remove("noDisplay")
-        entrantes.classList.add("noDisplay")
-        segundos.classList.add("noDisplay")
-        postres.classList.add("noDisplay")        
+
+function FuncionScroll(){
+    let distanciaQuienes = window.innerHeight - quienesSomos.getBoundingClientRect().top
+    let distanciaQueHacemos = window.innerHeight - queHacemos.getBoundingClientRect().top
+    let distanciaPlatos = window.innerHeight - platos.getBoundingClientRect().top
+    if(distanciaQuienes >= 200){
+        quienesSomos.classList.add("introduccion-efecto")
     }
-}
-
-function Segundos(){
-
-    if( segundos.classList.value == "container mt-3 mb-3 noDisplay"){
-        segundos.classList.remove("noDisplay")
-        primeros.classList.add("noDisplay")
-        entrantes.classList.add("noDisplay")
-        postres.classList.add("noDisplay")        
+    if(distanciaQueHacemos >=300){
+        queHacemos.classList.add("introduccion-efecto")
     }
-}
+    if(distanciaPlatos >=200){
+        platos.classList.add("introduccion-efecto")
 
-function Postres(){
-
-    if( postres.classList.value == "container mt-3 mb-3 noDisplay"){
-        postres.classList.remove("noDisplay")
-        primeros.classList.add("noDisplay")
-        entrantes.classList.add("noDisplay")
-        segundos.classList.add("noDisplay")        
     }
+
 }
 

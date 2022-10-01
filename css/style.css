@@ -26,8 +26,6 @@ body{
     background-color: #2E81BF;
 }
 
-/* Header */
-
 .colorBlanco{
     color: white;
 }
@@ -45,11 +43,21 @@ body{
 }
 
 #introduccion{
-    height: 100vh; 
+    height: 100vh;
+
 }
+
+.noOpacity{
+    opacity: 0;
+}
+
+.introduccion-efecto{
+    opacity: 1;
+    transition: .5s linear;
+}
+
 #titulo-tentacion{
     font-size: 4.5em;
-
 }
 
 .contenedor-titulo{

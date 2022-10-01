@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link
             rel="preconnect"
@@ -28,7 +28,7 @@
             crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="./css/style.css">
-        <title>Restaurante (Home)</title>
+        <title>Tentación</title>
     </head>
     <body>
 
@@ -84,7 +84,7 @@
                     <div class="col-lg-12">
                         <main
                             id="introduccion"
-                            class="d-flex align-items-center justify-content-center">
+                            class="d-flex noOpacity  align-items-center justify-content-center">
                             <div class="container d-flex align-items-center justify-content-center ">
                                 <div class="row">
                                     <div
@@ -108,7 +108,9 @@
             <div class="row d-flex align-items-center justify-content-start">
                 <div
                     id="quienes-somos-izquierda"
-                    class="col-lg-5 d-flex align-items-center justify-content-evenly flex-column border border-0 ms-0 ms-lg-5">
+                    class="col-lg-5 d-flex 
+                    noOpacity
+                    align-items-center justify-content-evenly flex-column border border-0 ms-0 ms-lg-5">
                     <h2 class="rem4  colorBlanco p-2 text-center">¿Quienes somos?</h2>
                     <div
                         id="carouselExampleSlidesOnly"
@@ -141,7 +143,9 @@
             <div class="row d-flex align-items-center justify-content-end">
                 <div
                     id="que-hacemos"
-                    class="col-lg-5 d-flex align-items-center justify-content-evenly flex-column border border-0  me-0 me-lg-5">
+                    class="col-lg-5 d-flex 
+                    noOpacity
+                    align-items-center justify-content-evenly flex-column border border-0  me-0 me-lg-5">
                     <h2 class="rem4  colorNegro p-2 text-center">¿Qué hacemos?</h2>
                     <p class=" text-black fs-5 p-2 text-center">Hacemos que venir a nuestro restaurante sea una
                         <span class="colorRojo">vivencia</span>. Queremos haceros sentir como en casa</p>
@@ -159,10 +163,10 @@
         <!-- -----------------Platos---------------------- -->
 
         <div class="container-fluid bg-fondo-3 pt-5 pb-5">
-            <div class="row">
+            <div class="row noOpacity" id="platos-estrella">
                 <div
-                    id="platos-estrella"
-                    class="col d-flex justify-content-center align-items-center">
+                    
+                    class="col d-flex  justify-content-center align-items-center">
                     <h1 class=" text-black mb-5 rem4 text-center">Platos Estrella</h1>
                 </div>
 
@@ -332,7 +336,7 @@
     </div>
 
     <script src="./scripts/main.js"></script>
-    <script src="./bootstrap-5.2.1-dist/js/bootstrap.js"></script>
+
 
 </body>
 </html>
