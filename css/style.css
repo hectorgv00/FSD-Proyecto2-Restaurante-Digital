@@ -76,6 +76,18 @@ body{
 background-color: rgba(255, 255, 255, 0.40);
 }
 
+.bg-blanco-transp{
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+.border-black{
+    border-color: black;
+}
+
+.altura-iconos{
+    height: 30px;
+}
+
 .bg-fondo-2{
     background-image:url(../images/pizza-4968645.jpg);
     background-size: cover;  
