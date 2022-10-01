@@ -80,12 +80,16 @@ background-color: rgba(255, 255, 255, 0.40);
     background-color: rgba(255, 255, 255, 0.20);
 }
 
-.border-black{
-    border-color: black;
+.bg-gris-claro{
+    background-color: rgb(243, 243, 243);
 }
 
 .altura-iconos{
     height: 30px;
+}
+
+.altura-iconos-contacto{
+    height: 50px;
 }
 
 .bg-fondo-2{
