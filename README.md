@@ -46,6 +46,7 @@ El menú es interactivo. Muestra los platos de la sección en la que te encuentr
 
 * [HTML](https://developer.mozilla.org/es/docs/Web/HTML) 
 * [CSS](https://developer.mozilla.org/es/docs/Web/CSS) 
+* [Bootstrap](https://getbootstrap.com/)
 * [JavaScript Vanilla](https://developer.mozilla.org/es/docs/Web/JavaScript) 
 
 ## GithubPages 💻
