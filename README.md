@@ -3,6 +3,22 @@
 
 Este proyecto es una página web Full Responsive realizada con html, css con su framework Bootstrap y JavaScript Vanilla.
 
+## Índice
+
+- [Restaurante Tentacion](#Restaurante-TENTACIÓN)
+  - [¿Cómo se hizo? 👩‍🏭](#¿Cómo-se-hizo?-👩‍🏭)
+  - [Primera vista de cada página 🥇](#Primera-vista-de-cada-página-🥇)
+    - [Home](#Home)
+    - [Menu](#Menu)
+    - [Contacto](#Contacto)
+  - [Responsive 📑](#Responsive-📑)
+  - [Menu 🍔](#Menu-🍔)
+  - [Construido con 🛠️](#Construido-con-🛠️)
+  - [GithubPages 💻](#GithubPages-💻)
+  - [Autor ✒️](#Autor-✒️)
+  - [Licencia 📄](#Licencia-📄)
+  - [Gracias :D 🎁](#Gracias-:D-🎁)
+
 ## ¿Cómo se hizo? 👩‍🏭
 
 La estructura principal está hecha siguiendo las normas de Bootstrap, usando su Grid, y Flex para mover los elementos hasta el lugar deseado.
@@ -46,7 +62,6 @@ El menú es interactivo. Muestra los platos de la sección en la que te encuentr
 
 * [HTML](https://developer.mozilla.org/es/docs/Web/HTML) 
 * [CSS](https://developer.mozilla.org/es/docs/Web/CSS) 
-* [Bootstrap](https://getbootstrap.com/) 
 * [JavaScript Vanilla](https://developer.mozilla.org/es/docs/Web/JavaScript) 
 
 ## GithubPages 💻
