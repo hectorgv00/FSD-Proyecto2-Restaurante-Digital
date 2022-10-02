@@ -25,7 +25,7 @@ El proyecto cuenta con 3 páginas: Home, Contacto y Carta
 
 #### Contacto
 
-[![Contacto.png](https://i.postimg.cc/zB0XdYjH/Contacto.png)](https://postimg.cc/8JfS53xT)
+[![Contacto.png](https://i.postimg.cc/9f6J7TS7/Contacto.png)](https://postimg.cc/sBJYFB3j)
 
 Se puede obsrevar que se ha seguido un estilo conservador en la primera vista de cada página para que el usuario entienda de un vistazo que sigue en el mismo restaurante, pero el subtexto es diferente en cada página, indicando su contenido. A partir de aquí, los apartados consiguientes son diferentes en cada caso.
 
