@@ -64,4 +64,4 @@ Este proyecto está bajo la Licencia [MIT License](https://github.com/hectorgv00
 ## Gracias :D 🎁
 
 * Comenta a otros sobre este proyecto 📢
-* Da las gracias públicamente 🤓.
+* Da las gracias públicamente.
